@@ -1,0 +1,20 @@
+Type: Compendium
+Package: HelloWorld
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.1
+Authors@R: 
+    person(given = "James",
+           family = "Howison",
+           role = c("aut", "cre"),
+           email = "james@howison.name",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: BinderStuff
+License: What license it uses
+Depends: 
+    holepunch,
+    rmarkdown,
+    tidyverse
+Remotes: 
+    karthik/holepunch
+Encoding: UTF-8
+LazyData: true
