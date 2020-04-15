@@ -1,0 +1,12 @@
+version: '3'
+services:
+ holepunch_test:
+    build: 
+        dockerfile: Dockerfile
+        context: .
+    ports:
+      - "8793:8787"
+    volumes:
+      - .:/home/rstudio/holepunch_test
+    environment:
+      - PASSWORD=rbox
